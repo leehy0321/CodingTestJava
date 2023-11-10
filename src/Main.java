@@ -1,22 +1,16 @@
 import array_list.Solution_1108;
+import array_list.Solution_1109;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Solution_1108 solution_1108 = new Solution_1108();
-        /*int[] input = {4,3,2,1,0};
+        Solution_1109 solution = new Solution_1109();
 
-        int[] answer = solution_1108.Solution1920(input);
+        Solution_1109.ListNode l1 = new Solution_1109.ListNode(9);
+        //1,9,9,9,9,9,9,9,9,9
+        Solution_1109.ListNode l2 = new Solution_1109.ListNode(1, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9)))))))));
 
-        for(int answerMember : answer) {
-            System.out.println(answerMember + " ");
-        }*/
-
-        /* int[] nums = {0,0,1,1,1,2,2,3,3,4};
-        System.out.println(solution_1108.Solution26(nums)); */
-
-        int[] heights = {1,3,2,5,25,24,5};
-        System.out.println(solution_1108.Solution11(heights)); // 24
+        Solution_1109.ListNode a = solution.Solution2(l1,l2);
     }
 }

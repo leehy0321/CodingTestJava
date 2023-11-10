@@ -41,7 +41,6 @@ public class Solution_1108 {
     // 2 <= n <= 105
     // 0 <= height[i] <= 104
     public int Solution11(int[] height) {
-
         int maxArea = 0, currentArea = 0;
         int leftIndex = 0, rightIndex = height.length - 1;
 

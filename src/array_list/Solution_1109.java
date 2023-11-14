@@ -66,6 +66,45 @@ public class Solution_1109 {
         return result;
          */
 
-        return null;
+        ListNode result = new ListNode();
+        ListNode current = result, newNode;
+        int sum = 0;
+        boolean isNeedPlusOne = false, isInit = true;
+
+        while(l1 != null || l2 != null) {
+            if(l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
+            }
+
+            if(l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
+
+            if(isNeedPlusOne) {
+                ++sum;
+            }
+
+            if(isInit) {
+                result = new ListNode(sum % 10);
+                current = result;
+                isInit = false;
+            } else {
+                newNode = new ListNode(sum % 10);
+                current.next = newNode;
+                current = newNode;
+            }
+
+            isNeedPlusOne = sum >= 10;
+            sum = 0;
+        }
+
+        if(isNeedPlusOne) {
+            newNode = new ListNode(1);
+            current.next = newNode;
+        }
+
+        return result;
     }
 }

@@ -7,9 +7,10 @@ public class Main {
     public static void main(String[] args) {
         Solution_1109 solution = new Solution_1109();
 
-        Solution_1109.ListNode l1 = new Solution_1109.ListNode(9);
-        //1,9,9,9,9,9,9,9,9,9
-        Solution_1109.ListNode l2 = new Solution_1109.ListNode(1, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9)))))))));
+        // 9,9
+        Solution_1109.ListNode l1 = new Solution_1109.ListNode(9, new Solution_1109.ListNode(9));
+        //9,9,9,9
+        Solution_1109.ListNode l2 = new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9, new Solution_1109.ListNode(9))));
 
         Solution_1109.ListNode a = solution.Solution2(l1,l2);
     }

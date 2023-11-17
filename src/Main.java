@@ -1,25 +1,15 @@
-import array_list.Solution_1115;
-
-import java.util.List;
+import array_list.Solution_1116;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Solution_1115 solution = new Solution_1115();
+        Solution_1116 solution = new Solution_1116();
 
-//        int[] num1 = {1,3};
-//        int[] num2 = {2};
-//        double a = solution.Solution4(num1, num2);
+//        int[] nums = {2,3,8,9,10};
+//        int a16 = solution.Solution16(nums, 16);
 
-//        int[] nums = {1,2,2,3,4};
-//        int a27 = solution.Solution27(nums,2);
-
-//        int[] nums = {-1,0,1,2,-1,-4};
-//        List<List<Integer>> a15 = solution.Solution15(nums);
-
-        int[] nums = {-10,7,19,15};
-        int[] a1 = solution.solution1(nums, 9);
+        int a3 = solution.Solution3("a");
 
     }
 }

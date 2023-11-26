@@ -11,3 +11,4 @@ File name = Solution_$Date.java
 - [Solution_1116.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_1116.java) : 16, 3
 - [Solution_1118.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_1118.java) : 5, 18, 347
 - [Solution_1119.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_1119.java) : 137
+- [Solution_1125.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_1125.java) : 36, 37 (about sudoku)

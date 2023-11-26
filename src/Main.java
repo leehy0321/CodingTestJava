@@ -1,12 +1,26 @@
-import array_list.Solution_1119;
+import array_list.Solution_1125;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Solution_1119 solution = new Solution_1119();
+        Solution_1125 solution = new Solution_1125();
+        
+        char board[][] = {
+                {'5', '3', '.', '.', '7', '.', '.', '.', '.'},
+                {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
+                {'.', '9', '8', '.', '.', '.', '.', '6', '.'},
+                {'8', '.', '.', '.', '6', '.', '.', '.', '3'},
+                {'4', '.', '.', '8', '.', '3', '.', '.', '1'},
+                {'7', '.', '.', '.', '2', '.', '.', '.', '6'},
+                {'.', '6', '.', '.', '.', '.', '2', '8', '.'},
+                {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
+                {'.', '.', '.', '.', '8', '.', '.', '7', '9'}
+        };
 
-        int[] nums = {2,2,1,3,3,2,4,4,3,2};
-        int a137 = solution.Solution137(nums);
+//        solution.solution37(board);
+//        int a = 88;
+
+        solution.Solution36(board);
     }
 }

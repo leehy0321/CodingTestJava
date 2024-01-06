@@ -23,7 +23,7 @@ public class Solution_1210 {
     //For operations "C" and "D", there will always be at least one previous score on the record.
     public int solution682(String[] operations) {
         int finalValue = 0;
-        int latestNum1 = 0, latestNum2 = 0;
+        int latestNum1, latestNum2;
         Stack<Integer> stack = new Stack<>();
 
         for(String operation : operations) {

@@ -17,3 +17,4 @@ File name = Solution_$Date.java
 ## About Stack ([stack folder](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack))
 - [Create Stack Solution](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack/mystack)
 - [Solution_1210.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack/Solution_1210.java) : 682
+- [Solution_0105.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack/Solution_0105.java) : 20, 1003

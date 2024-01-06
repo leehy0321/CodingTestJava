@@ -1,11 +1,13 @@
-import stack.Solution_1210;
+import stack.Solution_0105;
 
 public class Main {
     public static void main(String[] args) {
-        Solution_1210 solution = new Solution_1210();
+        Solution_0105 solution = new Solution_0105();
 
-        String[] operations = {"5","-2","4","C","D","9","+","+"};
-        int a682 = solution.solution682(operations);
+//        String s = "{[()][]}";
+//        boolean answer = solution.solution20(s);
 
+        String s = "abccba";
+        boolean answer = solution.solution1003(s);
     }
 }

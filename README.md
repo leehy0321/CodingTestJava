@@ -18,3 +18,4 @@ File name = Solution_$Date.java
 - [Create Stack Solution](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack/mystack)
 - [Solution_1210.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack/Solution_1210.java) : 682
 - [Solution_0105.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack/Solution_0105.java) : 20, 1003
+- [Solution_0106.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack/Solution_0106.java) : 71

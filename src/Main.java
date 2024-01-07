@@ -1,13 +1,11 @@
-import stack.Solution_0105;
+import stack.Solution_0106;
 
 public class Main {
     public static void main(String[] args) {
-        Solution_0105 solution = new Solution_0105();
+        Solution_0106 solution = new Solution_0106();
 
-//        String s = "{[()][]}";
-//        boolean answer = solution.solution20(s);
+        String path = "/home/foo//foo2/../.../";
+        String answer = solution.solution71(path);
 
-        String s = "abccba";
-        boolean answer = solution.solution1003(s);
     }
 }

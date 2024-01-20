@@ -1,11 +1,16 @@
-import stack.Solution_0106;
-
+import dfs.Solution_0119;
+import dfs.TreeNode;
 public class Main {
     public static void main(String[] args) {
-        Solution_0106 solution = new Solution_0106();
+        Solution_0119 solution = new Solution_0119();
 
-        String path = "/home/foo//foo2/../.../";
-        String answer = solution.solution71(path);
+        /*
+        TreeNode tree = new TreeNode(1,new TreeNode(2, new TreeNode(3, null, new TreeNode(4, new TreeNode(5, null, null), new TreeNode(6, null, null))), null),null);
+        List<Integer> answer = solution.Solution94(tree);
+        */
+
+        TreeNode tree = new TreeNode(4, new TreeNode(2, new TreeNode(3, null, null), new TreeNode(5, null, null)), new TreeNode(9, null, new TreeNode(7, null, null)));
+        int answer = solution.Solution563(tree);
 
     }
 }

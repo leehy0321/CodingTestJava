@@ -1,16 +1,21 @@
-import dfs.Solution_0119;
-import dfs.TreeNode;
+import bst.BinarySearchTree;
 public class Main {
     public static void main(String[] args) {
-        Solution_0119 solution = new Solution_0119();
+        BinarySearchTree solution = new BinarySearchTree();
 
-        /*
-        TreeNode tree = new TreeNode(1,new TreeNode(2, new TreeNode(3, null, new TreeNode(4, new TreeNode(5, null, null), new TreeNode(6, null, null))), null),null);
-        List<Integer> answer = solution.Solution94(tree);
-        */
+        solution.insert(5);
+        solution.insert(9);
+        solution.insert(1);
+        solution.insert(7);
+        solution.insert(3);
+        solution.insert(2);
+        solution.insert(8);
+        solution.insert(6);
+        solution.insert(4);
 
-        TreeNode tree = new TreeNode(4, new TreeNode(2, new TreeNode(3, null, null), new TreeNode(5, null, null)), new TreeNode(9, null, new TreeNode(7, null, null)));
-        int answer = solution.Solution563(tree);
+      //  solution.display();
 
+        solution.remove(9);
+        solution.display();
     }
 }

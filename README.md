@@ -22,7 +22,9 @@ File name = Solution_$Date.java
 - 
 ## About BinarySearchTree ([bst folder](https://github.com/leehy0321/CodingTestJava/blob/master/src/bst))
 - [Create BST Solution](https://github.com/leehy0321/CodingTestJava/blob/master/src/bst)
+- [Solution_0409.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/bst/Solution_0409.java) : 98
+- [Solution_0410.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/bst/Solution_0410.java) : 501
 
 ## About DFS ([dfs folder](https://github.com/leehy0321/CodingTestJava/blob/master/src/dfs))
 - [Solution_0119.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/dfs/Solution_0119.java) : 94, 2331, 563
-- [Solution_0409.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/dfs/Solution_0409.java) : 98
+

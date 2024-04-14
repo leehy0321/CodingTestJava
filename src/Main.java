@@ -1,21 +1,13 @@
+import array_list.Solution_0413;
 import bst.BinarySearchTree;
 public class Main {
     public static void main(String[] args) {
-        BinarySearchTree solution = new BinarySearchTree();
+        Solution_0413 solution = new Solution_0413();
 
-        solution.insert(5);
-        solution.insert(9);
-        solution.insert(1);
-        solution.insert(7);
-        solution.insert(3);
-        solution.insert(2);
-        solution.insert(8);
-        solution.insert(6);
-        solution.insert(4);
+//        int[] prices = {4,1,2};
+//        int a = solution.Solution121(prices);
 
-      //  solution.display();
-
-        solution.remove(9);
-        solution.display();
+        int[] prices = {1,2,4,2,5,7,2,4,9,0};
+        int a = solution.Solution122(prices);
     }
 }

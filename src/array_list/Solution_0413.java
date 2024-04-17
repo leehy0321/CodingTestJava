@@ -1,7 +1,5 @@
 package array_list;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Solution_0413 {
@@ -102,7 +100,7 @@ public class Solution_0413 {
                 // set buyTime to sellTime.
                 buyTime = sellTime;
             } else {
-                // check current profit and maxProfit.
+                // check current pro32q a       fit and maxProfit.
                 int currentProfit = prices[sellTime] - prices[buyTime];
                 if (currentProfit > maxProfit) {
                     maxProfit = currentProfit;

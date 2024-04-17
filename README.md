@@ -14,6 +14,7 @@ File name = Solution_$Date.java
 - [Solution_1125.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_1125.java) : 36, 37 (about sudoku)
 - [Solution_1126.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/random/Solution_1126.java) : 38, 80
 - [Solution_0413.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_0413.java) : 121, 122
+- [Solution_0416.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_0416.java) : 123
 
 ## About Stack ([stack folder](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack))
 - [Create Stack Solution](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack/mystack)

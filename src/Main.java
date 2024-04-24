@@ -1,10 +1,13 @@
-import array_list.Solution_0416;
+import array_list.Solution_0423;
 
 public class Main {
     public static void main(String[] args) {
-        Solution_0416 solution = new Solution_0416();
+        Solution_0423 solution = new Solution_0423();
 
-        int[] prices = {1,1, 2, 4, 2, 5, 7, 2, 4, 9, 0};
-        int a = solution.Solution123(prices);
+        int[] nums = {2,14,18,22,22};
+        boolean a = solution.Solution217_2(nums);
+
+        nums = new int[]{1, 2, 3, 1, 2, 3};
+        boolean a2 = solution.Solution219(nums, 2);
     }
 }

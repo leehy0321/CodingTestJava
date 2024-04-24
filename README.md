@@ -1,3 +1,4 @@
+![code](https://img.shields.io/badge/Code-Java-blue)
 # CodingTestJava
 For solving the problem in LeetCode.
 

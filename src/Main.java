@@ -1,11 +1,11 @@
-import array_list.Solution_0426;
+import array_list.Solution_0427;
 
 public class Main {
     public static void main(String[] args) {
-        Solution_0426 solution = new Solution_0426();
+        Solution_0427 solution = new Solution_0427();
 
-        int[] nums = {2,3,-2,-5,6,-1,4};
-        int a = solution.Solution1641(3);
+        int[] nums = {5,6,25,30};
+        int a = solution.Solution2932(nums);
 
     }
 }

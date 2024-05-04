@@ -20,6 +20,7 @@ File name = Solution_$Date.java
 - [Solution_0425.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_0425.java) : 238
 - [Solution_0426.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_0426.java) : 152, 1641
 - [Solution_0427.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/array_list/Solution_0427.java) : 2931
+- [Solution_0503.java](https://github.com/leehy0321/CodingTestJava/blob/master/src/random/Solution_0503.java) : 881
 
 ## About Stack ([stack folder](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack))
 - [Create Stack Solution](https://github.com/leehy0321/CodingTestJava/blob/master/src/stack/mystack)
